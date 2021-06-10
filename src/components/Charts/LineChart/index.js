@@ -45,7 +45,7 @@ const generateOptions = (data) => {
     },
     series: [
       {
-        name: "Tổng Ca nhiễm",
+        name: "Tổng Ca Nhiễm",
         data: data.map((item) => item.Confirmed),
       },
     ],
